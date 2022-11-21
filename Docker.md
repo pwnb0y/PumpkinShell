@@ -39,6 +39,10 @@ Start a docker deamon
 ```
 docker -d
 ```
+View space usage
+```
+docker system df
+```
 
 ## Images
 
@@ -193,7 +197,62 @@ Pull an image from a Docker Hub
 docker pull <image-name>
 ```
 
-## Docker Networking
+## Docker Network
+
+Show all networks
+```
+docker network ls
+```
+Inspect a network
+```
+docker network inspect <network-name>
+```
+Create a virtual network
+```
+docker network create <network-name>
+```
+Attach a network to a container
+```
+docker network connect <network-name> <container-name>
+```
+Detach a network from a container
+```
+docker network disconnect <network-name> <container-name>
+```
+Connect to a network while running a container
+```
+docker container run -d --name <container-name> --network <network-name> <image>
+```
+To provide network aliases for containers
+```
+ docker container run --rm --network <network-name> --network-alias <container-network-alias> <image>
+```
+Get port details of a container
+```
+docker container port <container-name>
+```
+Get IP of container
+```
+docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+```
+
+### Dockerfile Example:
+```
+FROM ubuntu
+MAINTAINER pwnb0y <vickykr07@yahoo.com>
+RUN apt-get update
+CMD ["echo","Hello World!"]
+```
+
+### Flags hint:
+
+`-a` -> attach
+`-t` -> tag
+`-i` -> interactive shell
+`--rm` -> makes sure the container is deleted permanently on exit.
+`--driver` -> to use a custom type of network.
+
+
 
 
 
