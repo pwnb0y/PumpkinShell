@@ -44,7 +44,11 @@ docker -d
 
 pulling a image from dockerhub
 ```
-docker pull <image-name>
+docker pull <image-name>:<image-version>
+```
+Pull a specific version and distribution of the image
+```
+docker pull <image-name>:<image-version>-<dist>
 ```
 Build an Image from a Dockerfile
 ```
@@ -137,6 +141,10 @@ checking logs
 ```
 docker logs <container-id>
 ```
+Display the running processes of a container
+```
+docker container top <container-name>
+```
 Fetch and follow the logs of a container
 ```
 docker logs -f <container-name>
@@ -152,6 +160,18 @@ docker container prune -f
 Remove a stopped container
 ```
 docker rm <container-name>
+```
+Forcefully remove running containers
+```
+docker container rm -f <container-id>
+```
+Remove more than one containers:
+```
+docker container rm <space-separated-3-digit-container-ids>
+```
+Use environment variables
+```
+docker container run -p 3307:3307 -d --name database --env MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 ```
 
 ## Docker Hub
