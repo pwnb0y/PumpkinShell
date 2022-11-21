@@ -213,11 +213,11 @@ docker network create <network-name>
 ```
 Attach a network to a container
 ```
-docker network connect <network-name> <container-name>
+docker network connect <network-name> <container-id>
 ```
 Detach a network from a container
 ```
-docker network disconnect <network-name> <container-name>
+docker network disconnect <network-name> <container-id>
 ```
 Connect to a network while running a container
 ```
