@@ -37,3 +37,7 @@ VBoxManage natnetwork start --netname NATNetwork101
 ```
 VBoxManage natnetwork remove --netname NATNetwork101
 ```
+## Assign NAT Network to a VM
+```
+VBoxManage modifyvm UbuntuVM --nic1 NATNetwork101
+```
