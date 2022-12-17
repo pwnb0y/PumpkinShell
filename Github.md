@@ -18,7 +18,8 @@ git config --list
 ```
 
 ### Create a new local repository
-```git init
+```
+git init
 ```
 
 ### Clone a repository
