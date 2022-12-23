@@ -35,13 +35,14 @@ Document. The HTML ```<head>``` element provides general information
 scripts and style sheets.
 
 ### Code example :
-```<html>
+````
+<html>
   <head>
     <title>Document title</title>
   </head>
-</html>```
-
-### 4. LINK TAG
+</html>
+````
+####4. LINK TAG
 The HTML ```<link>``` element
 specifies relationships between the current document and an external resource.This Element is most used to
 link to style sheets.
@@ -69,11 +70,13 @@ The HTML ```<style>``` element contains style information for a document, or par
 ```media | type | title```
 
 ### Code example :
-```<style type="text/css">
+````
+<style type="text/css">
 body {
   color:red;
 }
-</style>```
+</style>
+````
 
 ### 7. TITLE TAG
 The HTML ```<title>``` element defines the title
@@ -86,29 +89,33 @@ of the document, shown in a browser's title bar or on the page's tab.
 The HTML ```<article>``` element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.
 
 ### Code example :
-```<article class="ureview">
+````
+<article class="ureview">
       <p>I love this tool.</p>
       <footer>
         <p>
-          Posted on <time datetime="ɩ0ɨɭ‐0ɬ‐ɨɭ 
-ɨɰ:00">May ɨɭ</time> by Matt.
+          Posted on <time datetime="12-01-22
+10:00">May 1ɭ</time> by Matt.
         </p>
       </footer>
-    </article>```
+    </article>
+````
 
 ### 9. BODҮ TAG
 The HTML ```<body>``` Element
 represents the content of an HTML document. There can be only one``` <body>``` element in a document.
 
 ### Code example
-```<html>
+````
+<html>
 <head>
   <title>Here goes the title of the document</title>
 </head>
 <body>
   Here goes the he content of the document......
 </body>
-</html>```
+</html>
+````
 
 ### 10. FOOTER TAG
 The HTML <footer> element
@@ -122,118 +129,142 @@ Note :-> A footer typically contains information about the author of the section
 Heading elements implement six levels of document headings, ```<h1>``` is the most important and ```<h6>``` is the least.
 
 ### Code exapmle :
-```<h1>Heading level 1</h1>
+````
+<h1>Heading level 1</h1>
 <h2>Heading level 2</h2>
 <h3>Heading level 3</h3>
 <h4>Heading level 4</h4>
 <h5>Heading level 5</h5>
-<h6>Heading level 6</h6>```
+<h6>Heading level 6</h6>
+  ````
 
-### 12. NAV TAG
+#### 12. NAV TAG
 The HTML ```<nav>```
 element (HTML Navigation Element) represents a section of a page that links to other pages or to parts within the page: a section with
 navigation links.
 
-### Code example :
-```<nav>
+#### Code example :
+````
+  <nav>
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About us</a></li>
     <li><a href="#">Contact us</a></li>
   </ul>
-</nav>```
+</nav>
+ ````
 
-### 13. SECTION TAG
+#### 13. SECTION TAG
 The HTML ```<section>``` element represents a generic section of a document, i.e., a thematic grouping of content, typically with a
-heading. Each ```<section>``` should be identified, typically by including a
-heading (<h1>-<h6> element) as a child of the <section> element.
+heading. Each ```<section>``` should be identified, typically by including a heading ```<h1>-<h6>``` element as a child of the ```<section>``` element.
 
-### Code example :
-```<section><hɨ>Heading</hɨ><p>Bunch of awesome 
-content</p></section>```
+#### Code example :
+````
+<section><hɨ>Heading</hɨ><p>Bunch of awesome content</p></section>
+  ````
 
-### 14. BR TAG
+#### 14. BR TAG
 The HTML element line break ```<br>``` produces a line breakvin text. It is useful for writing a poem or an address, where the division of lines is significant.
 
-### Code example :
-```<p>Pawan Kumar<br>Jha<br>Mumbai</p>```
+#### Code example :
+````
+  <p>Pawan Kumar<br>Jha<br>Mumbai</p>
+  ````
 
-### 15. DIV TAG
+#### 15. DIV TAG
 Container or section with no semantic meaning. The HTML ```<div>``` element (or HTML Document Division Element) is the generic container for flow content.
 
-### Code example :
-```<div><p>Any kind of content here. Such as <p>, 
-<table>. You name it!</p></div>```
+#### Code example :
+```
+  <div><p>Any kind of content here. Such as <p>, 
+<table>. You name it!</p></div>
+  ```
 
-### 16. LI TAG
+#### 16. LI TAG
 List item. The HTML ```<li>``` element (or HTML List Item Element) is used
 to represent an item in a list.
 
-### Code example :
-```<ol>
+#### Code example :
+````
+  <ol>
   <li>first item</li>
   <li>second item</li>
   <li>third item</li>
-</ol>```
-
-### 17. P TAG
+</ol>
+  ````
+#### 17. P TAG
 Paragraph content. The HTML ```<p>``` element (or HTML Paragraph Element) represents a paragraph of text.
 
-### Code example : 
-```<p>This is the first paragraph of text.</p>
-<p>This is second paragraph of text.</p>```
+#### Code example : 
+````
+  <p>This is the first paragraph of text.</p>
+<p>This is second paragraph of text.</p>
+  ````
 
-### 18. UL TAG
+#### 18. UL TAG
 Unordered list. The HTML ```<ul>``` element (or HTML Unordered List Element) represents an unordered list of items, namely a collection
 of items that do not have a numerical ordering, and their order in the list is meaningless.
 
-### Code example :
-```<ul>
+#### Code example :
+````
+  <ul>
   <li>first item</li>
   <li>second item</li>
   <li>third item</li>
-</ul>```
+</ul>
+  ````
 
-### 19. A TAG
+#### 19. A TAG
 Hyperlink (a hypertext anchor). The HTML Anchor Element (```<a>``` tag)
 defines a hyperlink to a location on the same page or any other page on the Web.
 
-### Code example :
-```<a	href="www.google.com">Review it</a>```
+#### Code example :
+````
+ <a	href="www.google.com">Review it</a>
+ ````
 
-### 20. EM TAG
+#### 20. EM TAG
 Text that should be emphasized.The ```<em>``` element can be nested, with each level of nesting indicating a greater degree of emphasis.
 
-### Code example :
-```<p>In HTML ɬ, what was previously called 
+#### Code example :
+````
+ <p>In HTML ɬ, what was previously called 
 <em>block‐level</em> content is now called 
-<em>flow</em> content.</p>```
+<em>flow</em> content.</p>
+````
 
 ### 21. MARK TAG
 Text highlighted for referencing elsewhere. The HTML Mark Element ```<mark>``` represents highlighted text, i.e., a run of text marked for reference purpose, due to its relevance in a particular context.
 
 ### Code example : 
-```<p>The <mark> element is used to <mark>highlight</mark> text</p>```
+````
+<p>The <mark> element is used to <mark>highlight</mark> text</p>
+````
 
 ### 22. SPAN TAG
 Container with no semantic meaning. The HTML ```<span>``` element is a generic inline container for phrasing content, which does not inherently represent anything.
 
 ### Code example :
-```<p><span>Some text</span></p>```
+```
+<p><span>Some text</span></p>
+ ````
 
 ### 23. STRONG TAG
 Text that is important. The HTML Strong Element ```<strong>``` gives text strong importance, and is typically displayed in bold.
 
 ### Code example : 
-```<p>When doing x it is 
+````
+<p>When doing x it is 
 <strong>imperative</strong> to do y before 
-proceeding.</p>```
+proceeding.</p>
+  ````
 
 ### 24. TABLE TAG
 Table of multi-dimensional data. The HTML Table Element ```<table>``` represents tabular data.
 
 ### Code example :
-```<table>
+````
+  <table>
   <caption>Monthly savings</caption>
   <tr>
     <th>Month</th>
@@ -247,130 +278,158 @@ Table of multi-dimensional data. The HTML Table Element ```<table>``` represents
     <td>February</td>
     <td>$10</td>
   </tr>
-</table>```
+</table>
+  ````
 
 ### 25. TD TAG
 Table cell. The Table cell HTML element ```<td>``` deတဠnes a cell of a table
 that contains data. It participates in the table model.
 
 ### Code example :
- ```<tr>
+ ````
+  <tr>
     <td>January</td>
     <td>$ɨ00</td>
- </tr>```
+ </tr>
+  ````
 
 ### 26. BUTTON TAG
 A button. The HTML ```<button>``` Element represents a clickable button.
 
 ### Code example :
-```<button name="button">I am a button. Click me!
-</button>```
+````
+ <button name="button">I am a button. Click me!</button>
+  ````
 
 ### 27. FORM TAG
 The HTML ```<form>```element represents a document section that contains interactive
 controls to submit information to a web server.
 
 ### Code example :
-```<form action="" method="post">
+````
+  <form action="" method="post">
   <fieldset>
     <legend>Title</legend>
     <input type="radio" id="radio"> <label 
 for="radio">Click me</label>
   </fieldset>
-</form>```
+</form>
+  ````
 
 ### 28. INPUT TAG
 Generic form input. The HTML element ```<input>``` is used to create interactive controls for web-based forms in order to accept data from the user.
 
 ### Code example :
-```<input type="text" value="Type here">```
+````
+ <input type="text" value="Type here">
+  ````
 
 ### 29. LABEL TAG
 Caption for a form control. The HTML Label Element ```<label>```represents a caption for an item in a user interface.
 
 ### Code example :
-```<label>Click me <input type="text"></label>```
+````
+ <label>Click me <input type="text"></label>
+ ````
 
 ### 30. OPTION TAG
 Single option within a select control. In a Web form, the HTML ```<option>``` element is used to create a control representing an item
 within a ```<select>```, an ```<optgroup> ```or a <datalist> HTML5 element.
 
 ### Code example :
-```<select name="select">
+````
+ <select name="select">
   <option value="value1">Value ɨ</option> 
   <option value="value2" selected>Value 
 ɩ</option>
   <option value="value3">Value ɪ</option>
-</select>```
+</select>
+  ````
 
 ### 31. SELECT TAG
 Control for selecting from multiple options. The HTML select ```<select>``` element represents a control that presents a menu of options.
 
 ### Code example :
-```<select name="select">
+````
+  <select name="select">
   <option value="value1">Value ɨ</option> 
   <option value="value2" selected>Value 
 ɩ</option>
   <option value="value3">Value ɪ</option>
-</select>```
+</select>
+  ````
 
 ### 32. TEXTAREA TAG
 Multiline free-form text input. The HTML ```<textarea>``` element represents a multi-line plain-text editing control.
 
 ### Code example :
-```<textarea name="textarea" rows="10" cols="10">Write something here</textarea>```
+````
+ <textarea name="textarea" rows="10" cols="10">Write something here</textarea>
+  ````
 
 ### 33. IFRAME TAG
 Nested browser frame. The HTML Inline Frame Element ```<iframe>```represents a nested browsing context, effectively embedding another HTML page into the current page.
 
 ### Code example : 
-```<iframe src="http:www.example.com/iframe‐example" width="ɫ00" height="ɪ00">
+````
+  <iframe src="http:www.example.com/iframe‐example" width="ɫ00" height="ɪ00">
   <p>Your browser does not support iframes.</p>
-</iframe>```
+</iframe>
+  ````
 
 ### 34. IMG TAG
 An image. The HTML ```<img>``` element represents an image in the document.
 
 ### Code example :
-```<img src="logo‐sm.png" alt="Img Tag">```
+```
+ <img src="logo‐sm.png" alt="Img Tag">
+````
 
 ### 35. AUDIO TAG
 Sound or audio stream. The HTML ```<audio>``` element is used to embed sound content in documents.
 
 ### Code example :
-```<audio 
+````
+  <audio 
 src="http://developer.mozilla.org/@api/deki/fi
 les/ɩɰɩɭ/=AudioTest_ſɨƀ.ogg" autoplay>
   Your browser does not support the 
 <code>audio</code> element.
-</audio>```
+</audio>
+ ````
 
 ### 36. VIDEO TAG
 Used for playing videos or movies. Use the HTML ```<video>``` element to embed video content in a document.
 
 ### Code example :
-```<video src="videofile.webm" autoplay poster="posterimage.jpg">
+````
+  <video src="videofile.webm" autoplay poster="posterimage.jpg">
   Sorry, your browser doesn't support embedded 
 videos, 
   but don't worry, you can <a 
 href="videofile.webm">download it</a>
   and watch it with your favorite video 
 player!
-</video>```
+</video>
+ ````
 
 ### 37. CANVAS TAG
 The HTML ```<canvas>```
 Element can be used to draw graphics via scripting (usually JavaScript).
 
 ### Code example :
-```<canvas id="canvas" width="100" height="100">An alternative text describing 
-what your canvas displays.</canvas>```
+````
+  <canvas id="canvas" width="100" height="100">An alternative text describing 
+what your canvas displays.</canvas>
+````
 
 ### 38. SCRIPT TAG
 Inline or linked client side scripts. The HTML Script Element ```<script>```is used to embed or reference an executable script within an HTML or XHTML document.
 
 ### Code example :
-```<script src="javascript.js"></script>```
+````
+<script src="javascript.js"></script>
+````
 
 ### Thank You
 
