@@ -32,7 +32,7 @@ VBoxManage natnetwork start --netname NATNetwork101
  Forward localhost port 1022 to 192.168.10.5:22 (eg: SSH)
 ```
  VBoxManage natnetwork modify --netname NATNetwork101 --port-forward-4 "ssh:tcp:[]:1022:[192.168.10.5]:22"
-```
+``` 
 ## If you need to remove the NAT Network
 ```
 VBoxManage natnetwork remove --netname NATNetwork101
