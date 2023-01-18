@@ -212,6 +212,24 @@ reboot
 Restart the system
 ```
 
+## Commnad :: 24
+```
+pwd
+```
+## Description
+```
+print working directory
+```
+
+## Commnad :: 25
+```
+exit
+```
+## Description
+```
+close the terminal
+```
+
 # File Permission Commands
 ## Command :: 1
 ```
